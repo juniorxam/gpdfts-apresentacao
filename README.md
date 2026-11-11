@@ -38,4 +38,4 @@ Somente dados agregados são incluídos neste repositório. Não há relação i
 
 HTML, CSS e JavaScript, com dados agregados embutidos. Não utiliza bibliotecas externas, serviços pagos ou chamadas a APIs.
 
-Os arquivos também podem ser servidos como site estático. Para usar GitHub Pages, selecione a branch main e a pasta raiz nas configurações de Pages do repositório.
+O site é publicado pelo GitHub Pages com o fluxo Publish presentation, definido em .github/workflows/pages.yml. A fonte de publicação nas configurações de Pages é GitHub Actions. Atualizações na branch main iniciam a publicação automática; ela também pode ser acionada manualmente no fluxo.
